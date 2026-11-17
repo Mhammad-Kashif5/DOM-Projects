@@ -1,0 +1,238 @@
+/*  Task 01: Personal Profile Card  */
+
+
+.profile {
+    width: 300px;
+    margin: auto;
+    height: 200px;
+    border: 1px solid black;
+
+    border-radius: 10px;
+    text-align: center;
+}
+
+#username,
+#userBtn {
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: rgb(243, 242, 242);
+    padding: 8px 12px;
+}
+
+.clicked {
+    color: red;
+}
+
+#userBtn:hover {
+    background-color: green;
+    color: white;
+}
+
+/* Task 02: Background Color Changer */
+.btns {
+    width: 300px;
+    height: 150px;
+    margin: auto;
+    margin-top: 20px;
+
+    border-left: 8px solid orange;
+    border-top: 10px solid aqua;
+    border-right: 8px solid pink;
+    border-bottom: 10px solid orchid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+#red:active {
+    color: red;
+}
+
+#green:active {
+    color: green;
+}
+
+#blue:active {
+    color: blue;
+}
+
+/* Task 03: Image Attribute Controller */
+.imagesContainer {
+    width: 85%;
+    min-height: 350px;
+    border: 1px solid;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 10px;
+
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.imagesContainer>h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.imageBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.imageBox>img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: none;
+    border-radius: 20px;
+}
+
+.imageBox>button {
+    padding: 10px 20px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+/*  Task 04: Live typing text....*/
+
+.msg {
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid;
+    margin: 30px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Task 05: Dynamic To-Do List */
+.to-do-list {
+    width: 300px;
+    min-height: 150px;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#users {
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#addUsers {
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+#addUsers:hover {
+    background-color: rgb(4, 97, 4);
+    color: white;
+}
+
+.removeBtn {
+    padding: 8px 15px;
+    margin: 5px 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    background-color: red;
+}
+
+li {
+    list-style: none;
+}
+
+.removeBtn:hover {
+    background-color: rgb(211, 1, 1);
+}
+
+
+.password {
+    margin: auto;
+    width: 300px;
+    min-height: 200px;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#password {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+#showPas {
+    background-color: green;
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+#showPas:hover {
+    background-color: red;
+    color: color;
+}
+
+/* Task 07: Student Registration Form */
+
+#studentForm {
+    width: 400px;
+    min-height: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#studentForm>input {
+    width: 200px;
+    padding: 10px 20px;
+    border: 1px solid;
+    border-radius: 8px;
+    margin: 5px 0px;
+}
+
+.gender>input {
+    margin: 10px;
+}
+
+#submitBtn {
+    padding: 10px 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: green;
+}
+
+.studentContainer {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: blue;
+}

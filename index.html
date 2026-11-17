@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Mini Projects</h1>
+    <!-- Task 01: Personal Profile Card -->
+    <div class="profile">
+        <h2 id="profileName">Profile Name:</h2>
+        <input type="text" name="" id="username" placeholder="Enter your name">
+        <button id="userBtn">Change</button>
+    </div>
+    <!-- Task 02: Background Color Changer -->
+    <div class="btns">
+        <h2 id="bg">Background Color</h2>
+        <button class="btn" id="red">Red</button>
+        <button class="btn" id="green">Green</button>
+        <button class="btn" id="blue">Blue</button>
+    </div>
+    <!-- Task 03: Image Attribute Controller -->
+    <div class="imagesContainer">
+        <h2 id="clickImg">Click any image</h2>
+        <div class="imageBox">
+            <img src="images/pexels-halil-fatih-cetin-460308764-27164590.jpg" alt="Hide Image" ;>
+            <button id="hide">Hide</button>
+        </div>
+        <div class="imageBox">
+            <img src="images/pexels-alejandro-aznar-155337093-17976859.jpg" alt="Aznar">
+            <button id="show">Show</button>
+        </div>
+
+        <div class="imageBox">
+            <img src="images/pexels-nathan-steele-274130124-32730210.jpg" id="img" alt="Nathan">
+            <button id="change">Change</button>
+        </div>
+
+    </div>
+    <!--  Task 04: Live typing text....-->
+
+    <div class="msg">
+        <p>Message:</p>
+        <textarea name="" id="text" placeholder="Enter your message"></textarea>
+        <p id="textCount"></p>
+    </div>
+    <!-- Task 05: Dynamic To-Do List -->
+    <div class="to-do-list">
+        <h3>Add Names:</h3>
+        <input type="text" name="" id="users" placeholder="Enter your name">
+        <button id="addUsers">Add</button>
+        <ul id="list"></ul>
+    </div>
+
+    <!-- Task 06: Password Visibility Toggle -->
+    <div class="password">
+        <h3>Password:</h3>
+        <input type="password" name="" id="password" placeholder="Enter strong password">
+        <button id="showPas">Show</button>
+    </div>
+    <!-- Task 07: Student Registration Form -->
+    <form id="studentForm">
+        <h2>Student Registration Form</h2>
+        <label>Full Name:</label><br>
+        <input type="text" name="" id="stdName" placeholder="Enter your name"><br>
+        <label>Email:</label><br>
+        <input type="email" name="" id="stdEmail" placeholder="Enter your email"><br>
+        <label>Password:</label><br>
+        <input type="password" name="" id="stdPwd" placeholder="Enter strong password"><br>
+        <div class="gender">
+            <label>Gender:</label><br>
+            <input type="radio" name="gender" id="male" value="male">Male
+            <input type="radio" name="gender" id="female" value="female">Female
+        </div>
+        <button type="submit" id="submitBtn">Submit</button>
+    </form>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
